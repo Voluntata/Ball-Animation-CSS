@@ -1,0 +1,49 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    overflow:auto;
+    background-color: black; 
+}
+
+.container{
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    margin-left: 350px;
+    border: 10px double black;
+    position:relative; 
+} 
+
+.ball
+{
+    width: 100px;
+    position: absolute;
+    animation: Jump 4s linear infinite alternate;             
+}
+
+@keyframes Jump{
+    0%
+    {
+        top:0vh;
+        left: 0px;
+    }    
+    35%
+    {
+        top: 80vh;
+        left: 150px;
+       
+    }    
+    65%
+    {
+        top: 10vh;
+        left: 300px;
+    }    
+    100%
+    {
+        top: 80vh;
+        left: 500px;
+        
+    }    
+
+    }
