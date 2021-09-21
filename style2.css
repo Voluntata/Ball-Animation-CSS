@@ -8,7 +8,7 @@ body {
 .container {
     background-color: white;
     width: 600px;
-    height: 600px;
+    height: 97vh;
     margin-left: 350px;
     border: 10px double black;
     position: relative;
@@ -25,7 +25,7 @@ body {
         left: 0;
     }
     to {
-        left: 500px;
+        left: 510px;
     }
 }
 
